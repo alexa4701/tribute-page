@@ -1,0 +1,97 @@
+body {
+    background-color: #caf6da;
+    background-image: url('D:/Users/alexa/Workspace/tribute-page/img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: repeat(auto-fit, minmax(15%, 50%));
+    grid-template-areas:
+        '. title .'
+        '. image .'
+        '. info .';
+    justify-items: center;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-size: 11pt;
+}
+
+.item1 {
+    display: grid;
+    justify-items: center;
+    align-items: end;
+    justify-self: stretch;
+    grid-area: title;
+    align-self: end;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.item2 {
+    padding-top: 20px;
+    display: grid;
+    grid-area: image;
+    align-self: end;
+    justify-self: stretch;
+    justify-items: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.item3 {
+    display: grid;
+    justify-items: center;
+    justify-self: stretch;
+    grid-area: info;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#title {
+    font-weight: 900;
+    font-size: 36pt;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+#subtitle {
+    font-weight: 400;
+    font-size: 20pt;
+}
+#image {
+    display: block;
+    max-width: 100%;
+    width: 800px;
+    border: 5px;
+    border-color: #71ce94;
+    border-style: solid;
+}
+#image-caption {
+    padding: 10px;
+    font-weight: 300;
+    font-size: 16pt;
+    background-color: #ffd9d1;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    border: 2px;
+    border-color: #ffa08c;
+    border-style: solid;
+}
+#tribute-title {
+    font-weight: 800;
+    text-align: center;
+    font-size: 14pt;
+}
+#tribute-list {
+    text-align: justify;
+    line-height: 50px;
+    font-size: 12pt;
+}
+a {
+    color: #ffa08c;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+}
