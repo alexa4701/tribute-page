@@ -1,6 +1,6 @@
 body {
     background-color: #caf6da;
-    background-image: url('D:/Users/alexa/Workspace/tribute-page/img/background.jpg');
+    background-image: url('D:/Users/alexa/Workspace/tribute-page/tribute-page/img/background.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -66,8 +66,8 @@ body {
     display: block;
     max-width: 100%;
     width: 800px;
-    border: 5px;
-    border-color: #71ce94;
+    border: 2px;
+    border-color: #274724;
     border-style: solid;
 }
 #image-caption {
