@@ -71,7 +71,8 @@ body {
     border-style: solid;
 }
 #image-caption {
-    padding: 10px;
+    display: grid;
+    align-self: center;
     font-weight: 300;
     font-size: 16pt;
     background-color: #ffd9d1;
@@ -79,6 +80,8 @@ body {
     border: 2px;
     border-color: #ffa08c;
     border-style: solid;
+    padding-top: 20px;
+    margin-top: 20px;
 }
 #tribute-title {
     font-weight: 800;
